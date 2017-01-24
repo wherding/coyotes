@@ -1,0 +1,31 @@
+<form id="regform" action="php/confirmBid.php" method="post">
+				<p>Auction</p>
+				<p>
+					Highest Bid: $<?php
+						$maxBid = mysqli_query($dbc, "Select MAX(amount) AS high From bid;") or die('DB write error: '. mysqli_error($dbc));
+						$row = mysqli_fetch_array($maxBid);
+						$highbid = $row['high'];
+						//close the db connection
+						mysqli_close($dbc);
+						echo $highbid;
+					?>	
+					
+				</p>
+				<p>
+					<!-- amount -->
+					<label for ="amount">Amount:</label>
+					<input type="number" id="amount" name="amount"
+					min="<?php echo $highbid+0.01?>" max="1000000" step="any" value="<?php echo $highbid+0.05?>"
+					required autofocus
+					/>
+					<br />
+				</p>
+				
+				<p class="submit">
+					<input type="submit" value="SUBMIT" />
+					<span class="reset">
+						<input type="reset" value="CLEAR" onclick="history.go(0)"/>
+					</span>
+				</p>			
+			
+			</form> 

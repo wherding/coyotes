@@ -1,0 +1,417 @@
+@media screen and (orientation:portrait){
+	
+#wrapper{
+	position: relative;
+	width: 100%;
+}
+
+#header{
+	background: #900028;
+	height: 8%;
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	
+}
+
+#header ul{
+	text-align: center;
+	list-style: none;
+	margin: 3%;
+	padding: 2%;
+	
+}
+
+#header ul li{
+	display: inline;
+	width: 20%;
+	margin: 5% 2%;
+	
+}
+
+#header ul a {
+	text-decoration: none;
+	color: #efe3c6;
+	font-family: Arial;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+#header ul a:hover{
+	color: teal;
+	
+}
+
+body{
+	background-position: center;
+	background-color: black;	
+	margin: 25% auto;
+	
+}
+
+#body{
+	background: none;
+	width: 90%;
+	margin: 25% auto;
+	display: block;
+	text-align: center;
+}
+
+#confirm{
+	background-color: white;
+	border: 5px solid #900028;
+	width: 80%;
+	height: 40%;
+	font-family: arial;
+	font-size: 250%;
+	text-align: center;
+	display: block;
+	margin: 10% auto;
+	
+}
+
+#title{
+	text-align: center;
+	font-size: 150%;
+}
+
+#regform{
+	display: table;
+	border:5px solid #900028;
+	background: white;
+	text-align: left;
+	margin: 0px auto 0px auto; 
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom:2%;
+	font-family: arial;
+	font-size: 180%;
+	
+}
+
+#logform{
+	display: inline-block;
+	left: auto;
+	right: auto;
+	font-family: arial;
+	font-size: 250%;
+	border: 5px solid #900028;
+	background: white;
+	text-align: center;
+	width: 90%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#registerhere{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-family: arial;
+	font-size: 200%;
+	
+}
+
+#registerhere a{
+	color: teal;
+}
+
+
+#aucform{
+	font-family: arial;
+	text-align: center;	
+	width: 60%;
+	margin: 2% auto 25px auto;	
+}
+
+#auctions{
+	text-align: center;	
+	width: 100%;
+	
+}
+
+#auctions ul{
+	list-style: none;
+	
+	
+	
+}
+
+#auctions ul li{
+	background-color: white;
+	display: inline-block;
+	padding: 0% 30% 0% 30%;	
+	border: 5px solid #900028;
+	width: 30%;
+	margin-right: 4%;
+	margin-bottom: 4%
+}
+
+#auctions ul li a{
+	text-decoration: none;
+	color: #1a1a1a;
+	font-size: 30px;
+}
+
+#auctionform{
+	font-family: arial;
+	text-align: center;
+	background-color: white;
+	border: 5px solid #900028;
+	width: 60%;
+	margin: 5% auto 0% auto;
+	padding-bottom: 5%;
+	font-size: 150%;
+}
+
+.registration label{
+	display: inline-block;
+	width: 15em;
+	padding-bottom: 1em;
+	
+}
+
+.registration input{
+	font-size: 110%;
+}
+.registration select{
+	font-size: 110%;
+	padding-bottom: 1em;
+}
+
+.login label{
+	display: inline-block;
+	width: 8em;
+}
+
+.login input{
+	
+	font-size: 150%
+}
+
+#submit{
+	padding-top: 1em;
+	text-align: center;
+}
+
+
+.submitButton{
+	font-size: 200%;
+}
+
+.resetButton{
+	font-size: 200%;
+	
+}
+
+.logerror{
+	color: red;
+	font-weight: bold;
+}	
+
+
+		
+}
+
+
+
+@media screen and (orientation:landscape) {
+
+#wrapper{
+	position: relative;
+	width: 100%;
+}
+
+#header{
+	background: #900028;
+	height: 12%;
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	
+}
+
+#header ul{
+	text-align: center;
+	list-style: none;
+	margin: 0%;
+	padding: 2%;
+	
+}
+
+#header ul li{
+	display: inline;
+	width: 20%;
+	margin: 5% 2%;
+	
+}
+
+#header ul a {
+	text-decoration: none;
+	color: #efe3c6;
+	font-family: Arial;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#header ul a:hover{
+	color: teal;
+	
+}
+
+body{
+	background-position: center;
+	background: url(../images/background.jpg) no-repeat;
+	background-color: #920E25;
+	
+	margin: 100px auto;
+	
+}
+
+#body{
+	background: none;
+	width: 58%;
+	margin: 10% auto;
+	display: block;
+	text-align: center;
+}
+
+#confirm{
+	background-color: white;
+	border: 5px solid #900028;
+	width: 44%;
+	height: 20%;
+	font-family: arial;
+	font-size: 150%;
+	text-align: center;
+	display: block;
+	margin: 10% auto;
+	
+}
+
+#title{
+	text-align: center;
+	font-size: 150%;
+}
+
+#regform{
+	display: table;
+	border:5px solid #900028;
+	background: white;
+	text-align: left;
+	margin: 0px auto 0px auto; 
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom:2%;
+	font-family: arial;
+	font-size: 120%;
+	
+}
+
+#logform{
+	display: inline-block;
+	left: auto;
+	right: auto;
+	font-family: arial;
+	font-size: 120%;
+	border: 5px solid #900028;
+	background: white;
+	text-align: center;
+	width: 50%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#registerhere{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-family: arial;
+	font-size: 200%;
+	
+}
+
+#registerhere a{
+	color: teal;
+}
+
+#aucform{
+	font-family: arial;
+	text-align: center;	
+	width: 60%;
+	margin: 2% auto 25px 32%;	
+}
+
+#auctions{
+	text-align: center;	
+	width: 100%;
+	
+}
+
+#auctions ul{
+	list-style: none;
+	
+	
+	
+}
+
+#auctions ul li{
+	background-color: white;
+	display: inline-block;
+	padding: 0% 4% 0% 4%;	
+	border: 5px solid #900028;
+	width: 30%;
+	margin-right: 4%;
+	margin-bottom: 4%
+}
+
+#auctions ul li a{
+	text-decoration: none;
+	color: #1a1a1a;
+	font-size: 30px;
+}
+
+#auctionform{
+	font-family: arial;
+	text-align: center;
+	background-color: white;
+	border: 5px solid #900028;
+	width: 30%;
+	margin: 5% auto 0% 50%;
+	padding-bottom: 5%;
+	font-size: 120%;
+	
+}
+
+.registration label{
+	display: inline-block;
+	width: 14em;
+	padding-bottom: 1em;
+	
+}
+
+.login label{
+	display: inline-block;
+	width: 8em;
+}
+
+#submit{
+	padding-top: 1em;
+	text-align: center;
+}
+
+
+.submitButton{
+	font-size: 110%;
+}
+
+.resetButton{
+	font-size: 110%;
+	
+}
+
+.logerror{
+	color: red;
+	font-weight: bold;
+}
+}

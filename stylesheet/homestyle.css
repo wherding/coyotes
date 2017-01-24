@@ -1,0 +1,353 @@
+@media screen and (orientation:portrait){
+
+#wrapper{
+	position: relative;
+	width: 100%;
+}
+
+body{
+	background-position: center;
+	background: url(../images/portraitbackground.jpg) no-repeat;
+	background-color: #920E25;
+	background-size: cover;
+	margin: 100px auto;
+	
+}
+
+#header{
+	background: #900028;
+	height: 8%;
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	
+}
+
+#header ul{
+	text-align: center;
+	list-style: none;
+	margin: 3%;
+	padding: 2%;
+	
+}
+
+#header ul li{
+	display: inline;
+	width: 20%;
+	margin: 5% 2%;
+	
+}
+
+#header ul a {
+	text-decoration: none;
+	color: #efe3c6;
+	font-family: Arial;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+#header ul a:hover{
+	color: teal;
+	
+}
+
+#body{
+	background: none;
+	width: 60%;
+	margin: 180px auto 25px auto;
+}
+
+.donateButton {
+	position:fixed;
+    transition: .5s ease;
+    top: 50%;
+    left: 20%;
+		
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e02f61), color-stop(1, #900029));
+	background:-moz-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-webkit-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-o-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-ms-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:linear-gradient(to bottom, #e02f61 5%, #900029 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e02f61', endColorstr='#900029',GradientType=0);
+	background-color:#e02f61;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #900029;
+	display:inline-block;
+	cursor:pointer;
+	color:#efe3c6;
+	font-family:Arial;
+	font-size:35px;
+	font-weight:bold;
+	padding:30px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.donateButton:hover {
+	position:fixed;
+    transition: .5s ease;
+    top: 50%;
+    left: 20%;
+		
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #900029), color-stop(1, #e02f61));
+	background:-moz-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-webkit-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-o-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-ms-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:linear-gradient(to bottom, #900029 5%, #e02f61 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#900029', endColorstr='#e02f61',GradientType=0);
+	background-color:#900029;
+	color: teal;
+}
+.donateButton:active {
+	position:fixed;
+    transition: .5s ease;
+    top: 50%;
+    left: 20%;
+		
+	
+}
+
+.auctionButton {
+	position:fixed;
+    transition: .5s ease;
+    top: 50%;
+    left: 55%;
+		
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e02f61), color-stop(1, #900029));
+	background:-moz-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-webkit-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-o-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-ms-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:linear-gradient(to bottom, #e02f61 5%, #900029 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e02f61', endColorstr='#900029',GradientType=0);
+	background-color:#e02f61;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #900029;
+	display:inline-block;
+	cursor:pointer;
+	color:#efe3c6;
+	font-family:Arial;
+	font-size:35px;
+	font-weight:bold;
+	padding:30px 63px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+
+.auctionButton:hover {
+	position:fixed;
+    transition: .5s ease;
+    top: 50%;
+    left: 55%;
+		
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #900029), color-stop(1, #e02f61));
+	background:-moz-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-webkit-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-o-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-ms-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:linear-gradient(to bottom, #900029 5%, #e02f61 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#900029', endColorstr='#e02f61',GradientType=0);
+	background-color:#900029;
+	color: teal;
+}
+.auctionButton:active {
+	position:fixed;
+    transition: .5s ease;
+    top: 50%;
+    left: 55%;
+		
+}
+
+}
+
+
+
+@media screen and (orientation:landscape) {
+
+#wrapper{
+	position: relative;
+	width: 100%;
+}
+
+body{
+	background-position: center;
+	background: url(../images/homebackground.jpg) no-repeat;
+	background-color: #920E25;
+	background-size: cover;
+	margin: 100px auto;
+	
+}
+
+#header{
+	background: #900028;
+	height: 12%;
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	
+}
+
+#header ul{
+	text-align: center;
+	list-style: none;
+	margin: 0%;
+	padding: 2%;
+	
+}
+
+#header ul li{
+	display: inline;
+	width: 20%;
+	margin: 5% 2%;
+	
+}
+
+#header ul a {
+	text-decoration: none;
+	color: #efe3c6;
+	font-family: Arial;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#header ul a:hover{
+	color: teal;
+	
+}
+
+#body{
+	background: none;
+	width: 60%;
+	margin: 180px auto 25px auto;
+}
+
+.logerror{
+	color: red;
+	font-weight: bold;
+}
+
+
+	
+.donateButton {
+	position:fixed;
+    transition: .5s ease;
+    top: 70%;
+    left: 28%;
+		
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e02f61), color-stop(1, #900029));
+	background:-moz-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-webkit-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-o-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-ms-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:linear-gradient(to bottom, #e02f61 5%, #900029 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e02f61', endColorstr='#900029',GradientType=0);
+	background-color:#e02f61;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #900029;
+	display:inline-block;
+	cursor:pointer;
+	color:#efe3c6;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:30px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.donateButton:hover {
+	position:fixed;
+    transition: .5s ease;
+    top: 70%;
+    left: 28%;
+		
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #900029), color-stop(1, #e02f61));
+	background:-moz-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-webkit-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-o-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-ms-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:linear-gradient(to bottom, #900029 5%, #e02f61 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#900029', endColorstr='#e02f61',GradientType=0);
+	background-color:#900029;
+	color: teal;
+}
+.donateButton:active {
+	position:fixed;
+    transition: .5s ease;
+    top: 70%;
+    left: 28%;
+		
+	
+}
+
+.auctionButton {
+	position:fixed;
+    transition: .5s ease;
+    top: 70%;
+    left: 55%;
+		
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e02f61), color-stop(1, #900029));
+	background:-moz-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-webkit-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-o-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:-ms-linear-gradient(top, #e02f61 5%, #900029 100%);
+	background:linear-gradient(to bottom, #e02f61 5%, #900029 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e02f61', endColorstr='#900029',GradientType=0);
+	background-color:#e02f61;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #900029;
+	display:inline-block;
+	cursor:pointer;
+	color:#efe3c6;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:30px 63px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+
+.auctionButton:hover {
+	position:fixed;
+    transition: .5s ease;
+    top: 70%;
+    left: 55%;
+		
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #900029), color-stop(1, #e02f61));
+	background:-moz-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-webkit-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-o-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:-ms-linear-gradient(top, #900029 5%, #e02f61 100%);
+	background:linear-gradient(to bottom, #900029 5%, #e02f61 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#900029', endColorstr='#e02f61',GradientType=0);
+	background-color:#900029;
+	color: teal;
+}
+.auctionButton:active {
+	position:fixed;
+    transition: .5s ease;
+    top: 70%;
+    left: 55%;
+		
+}
+}
